@@ -1,0 +1,13 @@
+{
+  "orgName": "Scratch test 0512",
+  "edition": "Enterprise",
+  "features": ["PersonAccounts","AddCustomRelationships:20","Communities"],
+  "settings": {
+    "emailAdministrationSettings": {
+        "enableEnhancedEmailEnabled": true
+    },
+    "communitiesSettings": {
+        "enableNetworksEnabled": true
+    }
+  }
+}

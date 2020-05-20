@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nu_dse__Status__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Subject_Pick_List__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Started</fullName>
+                <default>false</default>
+                <label>Not Started</label>
+            </value>
+            <value>
+                <fullName>Approved</fullName>
+                <default>false</default>
+                <label>Approved</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+                <label>Rejected</label>
+            </value>
+            <value>
+                <fullName>Completed</fullName>
+                <default>false</default>
+                <label>Completed</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Reworked Settlement</controllingFieldValue>
+            <controllingFieldValue>Loan Product Request</controllingFieldValue>
+            <controllingFieldValue>Settlement Authorization</controllingFieldValue>
+            <controllingFieldValue>Client Portal Document</controllingFieldValue>
+            <controllingFieldValue>Settlements (Other)</controllingFieldValue>
+            <controllingFieldValue>SIF-Personal Account</controllingFieldValue>
+            <controllingFieldValue>Termination Request</controllingFieldValue>
+            <controllingFieldValue>Testimonial</controllingFieldValue>
+            <controllingFieldValue>Un-cleared Payment</controllingFieldValue>
+            <controllingFieldValue>Zero Pays-Cancelled Settlement</controllingFieldValue>
+            <controllingFieldValue>Reinstatement Request</controllingFieldValue>
+            <controllingFieldValue>Failed Validation</controllingFieldValue>
+            <controllingFieldValue>Request Documents/Statements</controllingFieldValue>
+            <controllingFieldValue>Legal Correspondence</controllingFieldValue>
+            <controllingFieldValue>Fund Recovery Needed</controllingFieldValue>
+            <controllingFieldValue>Offer Letter</controllingFieldValue>
+            <controllingFieldValue>Graduation</controllingFieldValue>
+            <controllingFieldValue>Complaint Case</controllingFieldValue>
+            <controllingFieldValue>New Client Follow Up</controllingFieldValue>
+            <controllingFieldValue>Cross Collateralized</controllingFieldValue>
+            <controllingFieldValue>NSF Makeup</controllingFieldValue>
+            <controllingFieldValue>Retention Save Follow Up</controllingFieldValue>
+            <controllingFieldValue>Payment Issue</controllingFieldValue>
+            <controllingFieldValue>SIF Payment</controllingFieldValue>
+            <controllingFieldValue>Question (Other)</controllingFieldValue>
+            <controllingFieldValue>Cancellation Letters</controllingFieldValue>
+            <controllingFieldValue>Recalculated Payment</controllingFieldValue>
+            <controllingFieldValue>Refund Request</controllingFieldValue>
+            <controllingFieldValue>Adding an Account</controllingFieldValue>
+            <controllingFieldValue>Additional Funds</controllingFieldValue>
+            <controllingFieldValue>Bad Debt</controllingFieldValue>
+            <controllingFieldValue>Bank Account Change</controllingFieldValue>
+            <controllingFieldValue>Call in Last Payment</controllingFieldValue>
+            <controllingFieldValue>Cancelled Settlement</controllingFieldValue>
+            <controllingFieldValue>Check by Phone</controllingFieldValue>
+            <controllingFieldValue>Client Referral</controllingFieldValue>
+            <controllingFieldValue>Draft Change Request</controllingFieldValue>
+            <controllingFieldValue>Adding or Removing Add-ons</controllingFieldValue>
+            <controllingFieldValue>Client Rejected Settlement</controllingFieldValue>
+            <controllingFieldValue>Removing an Account</controllingFieldValue>
+            <controllingFieldValue>Repay Follow Up</controllingFieldValue>
+            <controllingFieldValue>Issue Resolution</controllingFieldValue>
+            <valueName>Not Started</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reworked Settlement</controllingFieldValue>
+            <controllingFieldValue>Loan Product Request</controllingFieldValue>
+            <controllingFieldValue>Settlement Authorization</controllingFieldValue>
+            <controllingFieldValue>Client Portal Document</controllingFieldValue>
+            <controllingFieldValue>Settlements (Other)</controllingFieldValue>
+            <controllingFieldValue>SIF-Personal Account</controllingFieldValue>
+            <controllingFieldValue>Termination Request</controllingFieldValue>
+            <controllingFieldValue>Testimonial</controllingFieldValue>
+            <controllingFieldValue>Un-cleared Payment</controllingFieldValue>
+            <controllingFieldValue>Zero Pays-Cancelled Settlement</controllingFieldValue>
+            <controllingFieldValue>Reinstatement Request</controllingFieldValue>
+            <controllingFieldValue>Failed Validation</controllingFieldValue>
+            <controllingFieldValue>Request Documents/Statements</controllingFieldValue>
+            <controllingFieldValue>Legal Correspondence</controllingFieldValue>
+            <controllingFieldValue>Fund Recovery Needed</controllingFieldValue>
+            <controllingFieldValue>Offer Letter</controllingFieldValue>
+            <controllingFieldValue>Graduation</controllingFieldValue>
+            <controllingFieldValue>Complaint Case</controllingFieldValue>
+            <controllingFieldValue>New Client Follow Up</controllingFieldValue>
+            <controllingFieldValue>Cross Collateralized</controllingFieldValue>
+            <controllingFieldValue>NSF Makeup</controllingFieldValue>
+            <controllingFieldValue>Retention Save Follow Up</controllingFieldValue>
+            <controllingFieldValue>Payment Issue</controllingFieldValue>
+            <controllingFieldValue>SIF Payment</controllingFieldValue>
+            <controllingFieldValue>Question (Other)</controllingFieldValue>
+            <controllingFieldValue>Cancellation Letters</controllingFieldValue>
+            <controllingFieldValue>Recalculated Payment</controllingFieldValue>
+            <controllingFieldValue>Refund Request</controllingFieldValue>
+            <controllingFieldValue>Adding an Account</controllingFieldValue>
+            <controllingFieldValue>Additional Funds</controllingFieldValue>
+            <controllingFieldValue>Bad Debt</controllingFieldValue>
+            <controllingFieldValue>Bank Account Change</controllingFieldValue>
+            <controllingFieldValue>Call in Last Payment</controllingFieldValue>
+            <controllingFieldValue>Cancelled Settlement</controllingFieldValue>
+            <controllingFieldValue>Check by Phone</controllingFieldValue>
+            <controllingFieldValue>Client Referral</controllingFieldValue>
+            <controllingFieldValue>Draft Change Request</controllingFieldValue>
+            <controllingFieldValue>Adding or Removing Add-ons</controllingFieldValue>
+            <controllingFieldValue>Client Rejected Settlement</controllingFieldValue>
+            <controllingFieldValue>Removing an Account</controllingFieldValue>
+            <controllingFieldValue>Repay Follow Up</controllingFieldValue>
+            <controllingFieldValue>Issue Resolution</controllingFieldValue>
+            <valueName>Completed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Client Portal Document</controllingFieldValue>
+            <controllingFieldValue>Adding an Account</controllingFieldValue>
+            <controllingFieldValue>Removing an Account</controllingFieldValue>
+            <valueName>Approved</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Client Portal Document</controllingFieldValue>
+            <controllingFieldValue>Adding an Account</controllingFieldValue>
+            <controllingFieldValue>Removing an Account</controllingFieldValue>
+            <valueName>Rejected</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

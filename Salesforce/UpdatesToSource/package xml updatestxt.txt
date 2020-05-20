@@ -1,0 +1,12 @@
+Items - removed for errors
+
+QuickAction
+		<members>CollaborationGroup.NewGroupMember</members>
+		
+WorkflowRule
+		<members>nu_dse__Prospect__c.Update Email on Status as Approval</members>
+
+WorkflowFieldUpdate
+		<members>nu_dse__Prospect__c.Update_User_Manager_Email_on_Approval</members>		
+		
+

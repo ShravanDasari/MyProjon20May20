@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>nu_dse__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Subject_Pick_List__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Call</fullName>
+                <default>false</default>
+                <label>Call</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Send Letter</fullName>
+                <default>false</default>
+                <label>Send Letter</label>
+            </value>
+            <value>
+                <fullName>Send Quote</fullName>
+                <default>false</default>
+                <label>Send Quote</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Verbal</fullName>
+                <default>false</default>
+                <label>Verbal</label>
+            </value>
+            <value>
+                <fullName>Cancel Notice</fullName>
+                <default>false</default>
+                <label>Cancel Notice</label>
+            </value>
+            <value>
+                <fullName>Involuntary-Failed Payment(s)</fullName>
+                <default>false</default>
+                <label>Involuntary-Failed Payment(s)</label>
+            </value>
+            <value>
+                <fullName>Involuntary-Other</fullName>
+                <default>false</default>
+                <label>Involuntary-Other</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Termination Request</controllingFieldValue>
+            <controllingFieldValue>Draft Change Request</controllingFieldValue>
+            <controllingFieldValue>Client Rejected Settlement</controllingFieldValue>
+            <valueName>Verbal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Termination Request</controllingFieldValue>
+            <controllingFieldValue>Draft Change Request</controllingFieldValue>
+            <controllingFieldValue>Client Rejected Settlement</controllingFieldValue>
+            <valueName>Cancel Notice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Termination Request</controllingFieldValue>
+            <controllingFieldValue>Draft Change Request</controllingFieldValue>
+            <controllingFieldValue>Client Rejected Settlement</controllingFieldValue>
+            <valueName>Involuntary-Failed Payment(s)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Termination Request</controllingFieldValue>
+            <controllingFieldValue>Draft Change Request</controllingFieldValue>
+            <controllingFieldValue>Client Rejected Settlement</controllingFieldValue>
+            <valueName>Involuntary-Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Client Rejected Settlement</controllingFieldValue>
+            <valueName>Call</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Client Rejected Settlement</controllingFieldValue>
+            <valueName>Email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Client Rejected Settlement</controllingFieldValue>
+            <valueName>Send Letter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Client Rejected Settlement</controllingFieldValue>
+            <valueName>Send Quote</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Client Rejected Settlement</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
